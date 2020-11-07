@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+@font-face {
+    font-family: 'Mission Script';
+    font-style: normal;
+    font-weight: normal;
+    src: local('fonts/Mission Script'), url('Mission-Script.woff') format('woff');
+    }
+
+
+
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: transparent !important;
+    height: 90px;
+}
+
+li.nav-item a {
+    color: #ffffff !important;
+    font-weight: 500;
+    padding: 0px 15px !important;
+}
+
+.innerSliderContainer {
+    background-color: #ffffff99 !important;
+    padding: 35px 30px !important;
+}
+
+a.searchBtn {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #e03544;
+    padding: 10px 65px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sliderFirstHeading{
+    font-weight: bold;
+    font-size: 42px !important;
+    color: #df3442 !important;
+    margin-top: 100px !important;
+    margin-bottom: 0px !important;
+    text-align: center;
+}
+.sliderSecondHeading{
+    font-weight: bold;
+    font-size: 48px !important;
+    color: #007cb4 !important;
+    text-shadow: 2px 2px 4px #ffffff;
+    text-align: center;
+    line-height: 1 !important;
+
+}
+p.sliderFifthHeading{
+    color: #000000 !important;
+    text-align: left;
+}
+.searchField{
+    margin-bottom: 30px !important;
+}
+
+.sliderThirdHeading{
+    font-weight: bold;
+    font-size: 28px !important;
+    color: #df3442 !important;
+    text-shadow: 2px 2px 4px #ffffff;
+    text-align: center;
+    line-height: 1 !important;
+
+}
+
+.sliderFourthHeading{
+    font-weight: bold;
+    font-size: 52px !important;
+    color: #ffffff !important;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    line-height: 1 !important;
+}
+
+.footerSection{
+    background-color: #e7e7e7;
+}
+
+.footerText{
+    font-weight: bold;
+    font-size: 18px;
+}
+.footerLink{
+    color: #0078b2 !important;
+}
+.col-lg-12.text-center.footerCopyRight {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.col-lg-12.text-center.footerLogo {
+    padding: 25px 0px !important;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.wordAttractionText{
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+    font-family: "";
+
+}
+.placesImage{
+    width: 20%;
+}
+
+.place p{
+    color: #ffffff;
+    line-height: 1;
+}
+.placeHead{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.place.text-center {
+    padding-bottom: 25px;
+}
+.place.text-center p {
+    line-height: 0.56;
+}
+
+h3.wordAttractionText {
+    font-family: 'Montserrat';
+}
+
+.worldAttractSection,.exploreDestination,.suggestTrip{
+
+    padding: 40px 0px ;
+
+}
+
+
+p.sliderFirstHeading:before, p.sliderFirstHeading:after {
+    content: "\2015";
+}
+
+
+.checked {
+    color: #e03544;
+  }
+
+
+  table.cardTable tbody tr>td:nth-child(2) {
+    text-align: right;
+}
+
+table.cardTable {
+    margin: 45px 0px;
+    width: 100%;
+}
+
+.availableStatus{
+    font-weight: 600;
+    color: #00b260;
+}
+.availableStatus::before{
+    content: '';
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   border-radius: 7.5px;
+   margin-right: 5px;
+   background-color: #00b260;
+
+}
+.cardDetails{
+    padding-top: 20px;
+}
+
+
+.viewMoreBtn{
+    background-color: #e03544 !important;
+    border: none;
+}
+p.cardArrowDown.text-center {
+    background-color: #f1f1f1;
+    margin: 0px;
+    border-bottom: 2px solid #b62b37;
+}
+
+
+.imageGrid{
+    box-sizing: border-box
+}
+
+
+/*Mobile Responsive*/
+
+
+@media only screen and (max-width:520px){
+
+    a.navbar-brand img {
+        width: 230px;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+        position: fixed;
+        background-color: #59a2fd !important;
+    }
+
+    h3.wordAttractionText {
+        font-size: 24px;
+    }
+
+    p.footerText {
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:400px){
+
+    a.navbar-brand img {
+        width: 164px;
+    }
+
+    
+
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+
+    .card {
+        margin-top: 20px;
+    }
+    section.placesWithImages div div div {
+       background-size: cover;
+        width: 100%;
+        margin: 4px 0px;
+    }
+
+    section.placesWithImages div div div:nth-child(5) {
+      
+         margin: 0px 0px;
+     }
+
+     p.sliderFourthHeading {
+        font-size: 32px !important;
+    }
+    p.sliderSecondHeading
+    {
+        font-size: 30px !important;
+    }
+
+    button.navbar-toggler.collapsed, button.navbar-toggler {
+        color: #ffffff !important;
+        border: 1px solid;
+    }
+    div#navLinks {
+        background-color: #ffffff;
+        margin:10px 10px !important
+    }
+    ul.navbar-nav.m-auto li a {
+        color: #000000 !important;
+        padding: 15px 0px !important;
+        text-align: center;
+        border-bottom: 1px solid #cfcfcf;;
+    }
+    p.footerText {
+        font-size: 14px;
+    }
+    section.placesWithImages .container-fluid {
+        padding: 0px !important;
+    }
+
+    .firstCol,.secondCol,.thirdCol{
+        width: 100% !important;
+    }
+
+
+}
+
+.firstRow{
+    width: 100%;
+
+}
+
+.firstCol{
+    width: 20%;
+    float: left;
+}
+.secondCol{
+    width: 50%;
+    float: left;
+
+}
+.thirdCol{
+    width: 30%;
+    float: left;
+
+}
+
+
+.firstCol img {
+    width: 100% !important;
+}
+.secondCol img {
+    width: 100% !important;
+}
+.thirdCol img {
+    width: 100% !important;
+}
